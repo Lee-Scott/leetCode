@@ -14,7 +14,7 @@ public class SolutionTest {
 
         int n = arr.length;
 
-        Assert.assertEquals("fl", Solution.commonPrefix(arr, n));
+        Assert.assertEquals("fl", Solution.commonPrefix(arr));
 
     }
 

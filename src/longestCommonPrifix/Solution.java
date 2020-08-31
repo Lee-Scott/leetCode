@@ -33,9 +33,13 @@ public class Solution {
 
     // A Function that returns the longest common prefix
     // from the array of strings
-    static String commonPrefix(String arr[], int n)
+    static String commonPrefix(String arr[])
     {
+        int n;
+        n = arr.length;
         int index = findMinLength(arr, n);
+
+
         String prefix = ""; // Our resultant string
 
         // We will do an in-place binary search on the
