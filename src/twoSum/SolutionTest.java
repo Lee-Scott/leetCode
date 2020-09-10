@@ -1,6 +1,8 @@
 package twoSum;
 
 import org.junit.Test;
+
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import org.junit.runners.JUnit4;
 
@@ -13,7 +15,9 @@ public class SolutionTest {
         int [] solution = new int[]{0, 1};
 
 
-        assertEquals(solution, twoSum.Solution.twoSum(nums, target));
+        //assertEquals(solution, twoSum.Solution.twoSum(nums, target));
+
+        assertArrayEquals(solution, twoSum.Solution.twoSum(nums, target));
 
     }
 
@@ -23,7 +27,9 @@ public class SolutionTest {
         int target = 6;
         int [] solution = new int[]{1, 2};
 
-        assertEquals(solution, twoSum.Solution.twoSum(nums, target));
+        //assertEquals(solution, twoSum.Solution.twoSum(nums, target));
+
+        assertArrayEquals(solution, twoSum.Solution.twoSum(nums, target));
 
     }
 }
