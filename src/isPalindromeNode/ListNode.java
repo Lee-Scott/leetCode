@@ -1,4 +1,4 @@
-package isPalindrome;
+package isPalindromeNode;
 
 public class ListNode {
       int val;

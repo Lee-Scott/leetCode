@@ -1,4 +1,4 @@
-package isPalindrome;
+package isPalindromeNode;
 
 /* Java program to check if linked list is palindrome recursively */
 import java.util.*;

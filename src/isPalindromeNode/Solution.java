@@ -1,8 +1,4 @@
-package isPalindrome;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+package isPalindromeNode;
 
 public class Solution {
     public boolean isPalindrome(ListNode head) {
